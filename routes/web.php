@@ -12,7 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::redirect('/', '/events');
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/events', function () {
+    return view('pages.events.index');
+})->name('pages.events.index');
+
+Route::get('/mapview', function () {
+    return view('pages.mapview.index');
+})->name('pages.mapview.index');
+

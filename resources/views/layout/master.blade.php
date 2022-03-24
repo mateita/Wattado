@@ -13,32 +13,27 @@
 
   
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+ 
   @stack('custom-styles')
 
   
 </head>
 <body>
-  
-    <div class="main-wrapper" id="app">
-      <div class="container-fluid g-0">
+
+      <div class="container-fluid g-0 ">
         <div class="row">
           <div class="col-12">
-             @include('layout.header')
+                @yield('content')
           </div>
         </div>
         <div class="row">
-          <div class="col-auto">
-            @include('layout.sidebar')
-          </div>
-          <div class="col-auto">
-            <div class="page-content">
-                @yield('content')
-            </div>
+          <div class="col-12">
             @include('layout.footer')
           </div>
         </div>
       </div>
-    </div>
+
 
   
   <script src="{{ asset('js/app.js') }}"></script>
