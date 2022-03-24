@@ -21,7 +21,7 @@
 </head>
 <body>
 
-      <div class="container-fluid g-0 ">
+      <div class="container-fluid" style="height:100vh; width: 100vw;">
         <div class="row">
           <div class="col-12">
                 @yield('content')
