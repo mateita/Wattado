@@ -83,14 +83,14 @@
                     <p class="text-center">16/11/2020</p>
                     <div class="row">
                         <div class="col-6">
-                                <a href="#"> 
+                                <a href="{{ route('pages.events.show') }}"> 
                                     <button type="button" class="btn btn-primary w-100 h-100" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false">
                                        <strong>Infos</strong>
                                     </button>
                                 </a>
                         </div>
                         <div class="col-6">
-                                <a href="#"> 
+                                <a href="{{ route('pages.events.show') }}"> 
                                     <button type="button" class="btn btn-primary w-100 h-100" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false">
                                         <strong>Buy Ticket - Free</strong>
                                     </button>

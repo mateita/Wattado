@@ -57,7 +57,7 @@
                                 <div class="col-2">
                                 </div>
                                 <div class="col-4">
-                                        <a href="#"> 
+                                        <a href="{{ route('pages.events.show') }}"> 
                                             <button type="button" class="btn btn-primary w-100 h-100" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false">
                                                 <strong style="font-size: 0.5rem">Attending</strong>
                                             </button>
@@ -88,14 +88,14 @@
                                 </div>
                                 
                                 <div class="col-4">
-                                        <a href="#"> 
+                                        <a href="{{ route('pages.events.show') }}"> 
                                             <button type="button" class="btn btn-primary w-100 h-100" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false">
                                                <strong style="font-size: 0.5rem">Buy Tickets</strong>
                                             </button>
                                         </a>
                                 </div>
                                 <div class="col-4">
-                                        <a href="#"> 
+                                        <a href="{{ route('pages.events.show') }}"> 
                                             <button type="button" class="btn btn-primary w-100 h-100" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false">
                                                 <strong style="font-size: 0.5rem">Invite friends</strong>
                                             </button>

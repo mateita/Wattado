@@ -18,6 +18,10 @@ Route::get('/events', function () {
     return view('pages.events.index');
 })->name('pages.events.index');
 
+Route::get('/events/1', function () {
+    return view('pages.events.show');
+})->name('pages.events.show');
+
 Route::get('/mapview', function () {
     return view('pages.mapview.index');
 })->name('pages.mapview.index');
